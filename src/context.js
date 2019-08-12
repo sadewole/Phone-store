@@ -79,7 +79,7 @@ class ProductProvider extends Component {
     console.log('thisis dec mtd');
   };
 
-  removeitem = id => {
+  removeItem = id => {
     console.log('thisis rem mtd');
   };
 
@@ -98,7 +98,7 @@ class ProductProvider extends Component {
           closeModal: this.closeModal,
           increment: this.increment,
           decrement: this.decrement,
-          removeitem: this.removeitem,
+          removeItem: this.removeItem,
           clearCart: this.clearCart
         }}
       >
